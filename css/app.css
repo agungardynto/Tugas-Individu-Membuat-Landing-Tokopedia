@@ -1,6 +1,7 @@
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 hr.mt-5xx {
@@ -708,3 +709,14 @@ hr.mt-5xx {
 }
 
 /* END MODAL */
+@media (max-width: 1125px) {
+    #hide {
+        display: none;
+    }
+}
+
+@media (max-width: 990px) {
+    #carousel-hide {
+        display: none;
+    }
+}
